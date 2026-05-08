@@ -1,0 +1,88 @@
+
+body {
+  font-family: Geneva, Arial, sans-serif;
+  background-color: wheat;
+  margin: 0;
+  padding: 20px;
+  
+}
+
+h2 {
+  font-family: "Edu AU VIC WA NT Guides", cursive;
+  color: #1e3a8a;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+h3 {
+  font-style: italic;
+  color: #333333;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+p{
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.profile_image {
+  display: block;
+  margin: 20px auto;
+  width: 250px;
+  border-radius: 10px;
+}
+ul{
+  display: inline-block;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+.tableheader{
+  font-family: "Edu AU VIC WA NT Guides", cursive;
+  font-size: 35px;
+  color:#B0903D;
+  font-weight: bold;
+  text-align: center;
+}
+.card {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 800px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.contact-info {
+    display: flex;
+  align-items: center; /* vertically aligns them */
+  gap: 10px; /* space between image and text */
+  justify-content: center;
+  align-items: center;
+}
+.contact-info image {
+  width: 30px;
+  height: 30px;
+}
+
+.phone {
+    display: flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: none; /* removes underline */
+  color: inherit; /* keeps your text color */
+}
